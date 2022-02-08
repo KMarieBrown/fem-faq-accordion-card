@@ -1,0 +1,8 @@
+@use "abstracts/colors";
+@use "base/typography" as t;
+
+body {
+  background: colors.$pink;
+  color: colors.$blue;
+  font-family: t.$font;
+}
