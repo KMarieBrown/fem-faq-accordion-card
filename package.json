@@ -4,13 +4,25 @@
   "description": "Frontend Mentor - FAQ Accordion Card front-end coding challenge",
   "main": "index.js",
   "scripts": {
-    "dev": "parcel src/index.html",
-    "build": "parcel build src/index.html"
+    "start": "parcel ./src/index.html",
+    "dev": "parcel ./src/index.html",
+    "prebuild": "npx rimraf build",
+    "build": "parcel build --public-url ./ ./src/index.html --experimental-scope-hoisting --out-dir build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KMarieBrown/fem-faq-accordion-card.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "devDependencies": {
+  "bugs": {
+    "url": "https://github.com/KMarieBrown/fem-faq-accordion-card/issues"
+  },
+  "homepage": "https://github.com/KMarieBrown/fem-faq-accordion-card#readme",
+  "dependencies": {
+    "@popperjs/core": "^2.11.2",
+    "bootstrap": "^5.1.3",
     "parcel-bundler": "^1.12.5",
     "sass": "^1.49.7"
   }
