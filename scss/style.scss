@@ -1,51 +1,30 @@
 //import @use rules first
-@use "abstracts/breakpoints" as b;
-@use "abstracts/colors" as c;
-@use "../scss/base/typography" as t;
+@use "custom";
 
-// Required for customization
-@import "../node_modules/bootstrap/scss/functions";
-@import "../node_modules/bootstrap/scss/variables";
+// IMPORT THE ABSTRACTS
+@use "abstracts/mixins";
 
-$theme-colors: (
-  "dark": #290c31,
-  "light": #837088,
-);
-// $font-sizes: (
-//   1: $h1-font-size,
-//   2: $h2-font-size,
-//   3: $h3-font-size,
-//   4: $h4-font-size,
-//   5: $h5-font-size,
-//   6: $h6-font-size
-// );
+// IMPORT THE BASE
+@use "base/typography";
 
-:root {
-  --body-font-size: 12px;
-}
+// IMPORT THE COMPONENTS
+@use "components/buttons";
 
-// Import at the end of the custom files
-@import "../node_modules/bootstrap/scss/bootstrap.scss";
+// IMPORT THE LAYOUT
+@use "layout/body";
+@use "layout/faq";
+@use "layout/footer";
+@use "layout/header";
 
-.attribution {
-  font-size: 11px;
-  text-align: center;
-  padding-top: 1em;
-}
+// body {
+//   margin: 0;
+//   padding: 0;
+//   background-image: linear-gradient(hsl(273, 75%, 66%), (hsl(240, 73%, 65%)));
+//   min-height: 100vh;
+//   background-repeat: no-repeat;
+//   font-size: var(--body-font-size);
 
-.attribution a {
-  color: hsl(228, 45%, 44%);
-}
-
-body {
-  margin: 0;
-  padding: 0;
-  background-image: linear-gradient(hsl(273, 75%, 66%), (hsl(240, 73%, 65%)));
-  min-height: 100vh;
-  background-repeat: no-repeat;
-  font-size: var(--body-font-size);
-
-  // @media (min-width: b.$large) {
-  //   font-size: 2.5em;
-  // }
-}
+//   // @media (min-width: b.$large) {
+//   //   font-size: 2.5em;
+//   // }
+// }

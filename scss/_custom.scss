@@ -1,0 +1,23 @@
+// MY THEME COLORS
+$purple: hsl(273, 75%, 66%);
+$indigo: hsl(240, 73%, 65%);
+$orange: hsl(14, 88%, 65%);
+
+// WHITE & GRAY COLORS
+$white: #fff;
+$gray-200: hsl(240, 5%, 91%);
+$gray-600: hsl(240, 6%, 50%);
+$gray-700: hsl(237, 12%, 33%);
+$gray-900: hsl(238, 29%, 16%);
+
+$primary: $white;
+$secondary: $gray-900;
+
+// ACCORDION OVERRIDES
+$accordion-icon-color: $orange;
+$accordion-icon-active-color: $orange;
+
+$accordion-icon-width: 0.5rem;
+
+// IMPORT BOOTSTRAP 5
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
