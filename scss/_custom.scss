@@ -19,5 +19,10 @@ $accordion-icon-active-color: $orange;
 
 $accordion-icon-width: 0.5rem;
 
+$accordion-button-icon: url("../images/icon-arrow-down.svg");
+$accordion-button-active-icon: url("../images/icon-arrow-down.svg");
+
+$accordion-border-color: rgba(hsl(240, 5%, 91%), 0.125);
+
 // IMPORT BOOTSTRAP 5
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
