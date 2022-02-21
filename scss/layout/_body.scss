@@ -5,10 +5,17 @@ body {
   margin: 0;
   padding: 0;
   background-image: linear-gradient(c.$purple, (c.$indigo));
-  min-height: 100vh;
+  min-height: 768px;
   background-repeat: no-repeat;
   font-size: t.$size-font;
   font-family: t.$font;
+  // width: 375px;
+}
+
+.accordion-background {
+  min-height: 285px;
+  width: 279px;
+  padding-top: 15px;
 }
 
 //   // @media (min-width: b.$large) {
