@@ -11172,11 +11172,15 @@ h1 {
 .attribution {
   font-size: 11px;
   text-align: center;
-  padding-top: 1em;
 }
 
 .attribution a {
   color: #3e52a3;
+}
+
+footer {
+  background-color: #fff;
+  padding: 1.5em 0;
 }
 
 .img-top-sm {
