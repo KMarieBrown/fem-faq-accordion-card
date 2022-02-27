@@ -14,15 +14,16 @@ $primary: $white;
 $secondary: $gray-900;
 
 // ACCORDION OVERRIDES
-$accordion-icon-color: $orange;
-$accordion-icon-active-color: $orange;
-
-$accordion-icon-width: 0.5rem;
-
 $accordion-button-icon: url("../images/icon-arrow-down.svg");
 $accordion-button-active-icon: url("../images/icon-arrow-down.svg");
 
-$accordion-border-color: rgba(hsl(240, 5%, 91%), 0.125);
+$accordion-border-color: rgba(hsl(240, 5, 91), 100%);
+
+$accordion-icon-color: $orange;
+$accordion-icon-active-color: $orange;
+$accordion-icon-width: 0.5rem;
+
+$accordion-padding-x: 0;
 
 // FONT OVERRIDES
 $h1-font-size: 2rem;

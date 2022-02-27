@@ -4563,7 +4563,7 @@ textarea.form-control-lg {
   display: flex;
   align-items: center;
   width: 100%;
-  padding: 1rem 1.25rem;
+  padding: 1rem 0;
   font-size: 1rem;
   color: #1d1e35;
   text-align: left;
@@ -4581,7 +4581,7 @@ textarea.form-control-lg {
 .accordion-button:not(.collapsed) {
   color: #e6e6e6;
   background-color: white;
-  box-shadow: inset 0 -1px 0 rgba(231, 231, 233, 0.125);
+  box-shadow: inset 0 -1px 0 #e7e7e9;
 }
 .accordion-button:not(.collapsed)::after {
   background-image: url("/icon-arrow-down.c7e40f0e.svg");
@@ -4619,7 +4619,7 @@ textarea.form-control-lg {
 
 .accordion-item {
   background-color: #fff;
-  border: 1px solid rgba(231, 231, 233, 0.125);
+  border: 1px solid #e7e7e9;
 }
 .accordion-item:first-of-type {
   border-top-left-radius: 0.25rem;
@@ -4646,7 +4646,7 @@ textarea.form-control-lg {
 }
 
 .accordion-body {
-  padding: 1rem 1.25rem;
+  padding: 1rem 0;
 }
 
 .accordion-flush .accordion-collapse {
@@ -11111,13 +11111,17 @@ textarea.form-control-lg {
   }
 }
 body {
-  margin: 0;
+  margin: 2.5em 0 0 0;
   padding: 0;
   background-image: linear-gradient(#af67e9, #6565e7);
-  min-height: 768px;
   background-repeat: no-repeat;
-  font-size: "12px";
+  font-size: "0.75rem";
   font-family: "Kumbh Sans", sans-serif;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2rem !important;
 }
 
 .accordion-background {
@@ -11126,9 +11130,31 @@ body {
   padding-top: 15px;
 }
 
-h1 {
-  text-align: center;
-  font-size: 2rem !important;
+.accordion-body {
+  color: #787887;
+  font-size: "0.75rem" !important;
+  padding: 0.625rem 0 1rem 0;
+}
+
+.accordion-button {
+  font-size: 0.8125rem;
+}
+
+.accordion-button:not(.collapsed) {
+  color: #1d1e35;
+  font-weight: 700;
+}
+
+.accordion-header {
+  font-size: 0.8125rem;
+  font-weight: 400;
+}
+
+.accordion-item {
+  border-bottom-color: #e7e7e9;
+  border-top-color: white;
+  border-right-color: white;
+  border-left-color: white;
 }
 
 .faq-background {
