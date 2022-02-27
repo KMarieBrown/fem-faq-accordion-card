@@ -11124,10 +11124,8 @@ h1 {
   font-size: 2rem !important;
 }
 
-.accordion-background {
-  min-height: 285px;
-  width: 279px;
-  padding-top: 15px;
+.accordion {
+  padding: 0px 24px 48px 24px;
 }
 
 .accordion-body {
@@ -11158,9 +11156,17 @@ h1 {
 }
 
 .faq-background {
+  width: 327px;
+  margin-top: 148px;
+  margin-bottom: 85px;
   min-height: 535px;
   border-radius: 23px;
+}
+
+.faq-heading {
   padding-top: 132px;
+  padding-bottom: 32px;
+  margin: 0;
 }
 
 .attribution {
@@ -11171,6 +11177,15 @@ h1 {
 
 .attribution a {
   color: #3e52a3;
+}
+
+.img-top-sm {
+  margin-top: -35px;
+  width: 236.85px;
+}
+
+.img-btm-sm {
+  margin-bottom: -55px;
 }
 
 /*# sourceMappingURL=/style.1dc133ea.css.map */
