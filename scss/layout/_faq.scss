@@ -1,0 +1,47 @@
+//import @use rules first
+@use "../custom" as c;
+@use "../base/typography" as t;
+
+h1 {
+  text-align: center;
+  font-size: 2rem !important;
+}
+
+.accordion-background {
+  min-height: 285px;
+  width: 279px;
+  padding-top: 15px;
+}
+
+.accordion-body {
+  color: c.$gray-600;
+  font-size: t.$size-font !important;
+  padding: 0.625rem 0 1rem 0;
+}
+
+.accordion-button {
+  font-size: c.$h2-font-size;
+}
+
+.accordion-button:not(.collapsed) {
+  color: c.$gray-900;
+  font-weight: 700;
+}
+
+.accordion-header {
+  font-size: c.$h2-font-size;
+  font-weight: 400;
+}
+
+.accordion-item {
+  border-bottom-color: c.$accordion-border-color;
+  border-top-color: white;
+  border-right-color: white;
+  border-left-color: white;
+}
+
+.faq-background {
+  min-height: 535px;
+  border-radius: 23px;
+  padding-top: 132px;
+}

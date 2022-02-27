@@ -1,0 +1,16 @@
+@use "../custom" as c;
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  padding-top: 1em;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+// footer {
+//   background-color: c.$white;
+
+// }

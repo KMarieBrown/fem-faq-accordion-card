@@ -1,0 +1,17 @@
+//import @use rules first
+@use "custom";
+
+// IMPORT THE ABSTRACTS
+@use "abstracts/mixins";
+
+// IMPORT THE BASE
+@use "base/typography";
+
+// IMPORT THE COMPONENTS
+@use "components/buttons";
+
+// IMPORT THE LAYOUT
+@use "layout/body";
+@use "layout/faq";
+@use "layout/footer";
+@use "layout/header";
