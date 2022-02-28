@@ -29,5 +29,17 @@ $accordion-padding-x: 0;
 $h1-font-size: 2rem;
 $h2-font-size: 0.8125rem;
 
+// GRID OVERRIDES
+$grid-breakpoints: (
+  xs: 0,
+  sm: 375px,
+  lg: 1440px,
+);
+
+$container-max-widths: (
+  sm: 327px,
+  lg: 962px,
+);
+
 // IMPORT BOOTSTRAP 5
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
