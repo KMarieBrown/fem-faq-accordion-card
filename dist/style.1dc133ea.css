@@ -8161,6 +8161,12 @@ h1 {
   min-height: 535px;
   border-radius: 23px;
 }
+@media (min-width: 90em) {
+  .faq-background {
+    width: 920px;
+    max-height: 509px;
+  }
+}
 
 .faq-heading {
   padding-top: 132px;

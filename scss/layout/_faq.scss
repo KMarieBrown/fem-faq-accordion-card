@@ -1,6 +1,7 @@
 //import @use rules first
 @use "../custom" as c;
 @use "../base/typography" as t;
+@use "../abstracts/breakpoints" as b;
 
 h1 {
   text-align: center;
@@ -46,6 +47,12 @@ h1 {
   margin-bottom: 85px;
   min-height: 535px;
   border-radius: 23px;
+
+  @media (min-width: b.$screen-lg) {
+    // 1440px
+    width: 920px;
+    max-height: 509px;
+  }
 }
 
 .faq-heading {
